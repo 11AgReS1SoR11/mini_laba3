@@ -1,0 +1,72 @@
+{
+	"info": {
+		"_postman_id": "be77e431-7ad4-4b8d-8cda-681ba0639b86",
+		"name": "Animals",
+		"description": "A collection of requests for pictures (or links) to cute animals to cheer you up :)",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "31400045"
+	},
+	"item": [
+		{
+			"name": "New Request",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://cataas.com/cat",
+					"protocol": "https",
+					"host": [
+						"cataas",
+						"com"
+					],
+					"path": [
+						"cat"
+					]
+				},
+				"description": "Возвращает рандомную картинку котиков"
+			},
+			"response": []
+		},
+		{
+			"name": "New Request",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://random.dog/woof.json",
+					"protocol": "https",
+					"host": [
+						"random",
+						"dog"
+					],
+					"path": [
+						"woof.json"
+					]
+				},
+				"description": "Возвращает ссылку на рандномную картинку собачкек"
+			},
+			"response": []
+		},
+		{
+			"name": "New Request",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://randomfox.ca/floof/",
+					"protocol": "https",
+					"host": [
+						"randomfox",
+						"ca"
+					],
+					"path": [
+						"floof",
+						""
+					]
+				},
+				"description": "Возвращает ссылку на рандомную картинку лисичек"
+			},
+			"response": []
+		}
+	]
+}
