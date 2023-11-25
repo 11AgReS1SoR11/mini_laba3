@@ -1,32 +1,5 @@
 <!DOCTYPE html>
 <html>
-
-<head>
-  <style>
-    body {
-      font-family: Arial, sans-serif;
-      margin: 20px;
-    }
-
-    h1 {
-      text-align: center;
-    }
-
-    h3 {
-      text-align: center;
-    }
-
-    ul {
-      list-style-type: none;
-      padding: 0;
-    }
-
-    li {
-      margin-bottom: 10px;
-    }
-  </style>
-</head>
-
 <body>
 
   <h1 align="center">Laba#3</h1>
